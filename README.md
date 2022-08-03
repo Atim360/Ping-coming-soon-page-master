@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Atim360/Ping-coming-soon-page-master](https://github.com/Atim360/Ping-coming-soon-page-master)
+- Live Site URL: [https://atim360.github.io/Ping-coming-soon-page-master/](https://atim360.github.io/Ping-coming-soon-page-master/)
 
 ## My process
 
