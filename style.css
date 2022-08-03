@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+/* "Libre Franklin" */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Libre Franklin", sans-serif;
+  color: hsl(209, 33%, 12%);
+  text-align: center;
+}
+
+
+/* Page */
+
+.page--title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 725px) {
+  .page--title {
+    font-size: 2.4rem;
+  }
+}
+
+.page--paragraph {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 725px) {
+  .page--paragraph {
+    font-size: 1.4rem;
+  }
+}
+
+.page--form-field {
+  width: 75%;
+  text-align: center;
+}
+
+@media screen and (min-width: 925px) {
+  .page--form-field {
+    width: 50%;
+    text-align: start;
+  }
+}
+
+.page--input-text {
+  width: 100%;
+  padding: 14px 25px;
+  border-radius: 25px;
+  border: 1px solid hsl(223, 100%, 88%);
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(209, 33%, 12%);
+  font-size: 13px;
+  outline: none;
+}
+
+@media screen and (min-width: 925px) {
+  .page--input-text {
+    padding: 17px 25px;
+    font-size: 16px;
+  }
+}
+
+.page--input-text::placeholder {
+  color: hsla(0, 0%, 59%, 0.75);
+}
+
+.page--button {
+  width: 75%;
+  margin-top: 10px;
+  padding: 14px 0px;
+  border-radius: 25px;
+  border: none;
+  background-color: hsl(223, 87%, 63%);
+  box-shadow: 0px 6px 9px hsla(223, 100%, 88%, 0.75);
+  color: hsl(0, 0%, 98%);
+  font-size: 14px;
+}
+
+@media screen and (min-width: 925px) {
+  .page--button {
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+    padding: 17px 0px;
+    width: 25%;
+  }
+}
+
+.page--button:hover {
+  filter: brightness(110%);
+  opacity: 0.9;
+}
+
+.page--submit-error {
+  color: hsl(354, 100%, 66%);
+  font-size: 0.7rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@media screen and (min-width: 925px) {
+  .page--submit-error {
+    margin-left: 20px;
+  }
+}
+
+.page--text-gray {
+  color: hsl(0, 0%, 59%);
+}
+
+.page--font-light {
+  font-weight: 300;
+}
+
+.page--font-small {
+  font-size: 0.65rem;
+}
+
+.page--margin-b1 {
+  margin-bottom: 12px;
+}
+
+.page--margin-b2 {
+  margin-bottom: 25px;
+}
+
+.page--border-red {
+  border-color: hsl(354, 100%, 66%);
+}
+
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 85px 0px 40px 0px;
+}
+
+@media screen and (min-width: 925px) {
+  .header {
+    margin: 85px 0px 55px 0px;
+  }
+}
+
+.header__logo {
+  width: 15%;
+  min-width: 75px;
+  max-width: 105px;
+}
+
+.header__logo > img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+  margin-bottom: 75px;
+}
+
+@media screen and (min-width: 925px) {
+  .main {
+    padding: 0px 20%;
+  }
+}
+
+.main__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0px 70px 0px;
+  width: 100%;
+}
+
+@media screen and (min-width: 925px) {
+  .main__form {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.main__illustration {
+  width: 85%;
+}
+
+.main__illustration > img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Icons */
+
+.icons {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.icons__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid hsl(223, 100%, 88%);
+  margin: 0px 8px;
+}
+
+.icons__icon:hover {
+  border: none;
+  background-color: hsl(223, 87%, 63%);
+}
+
+.icons__icon:hover > svg {
+  fill: hsl(0, 0%, 98%);
+}
+
+.icons__icon > svg {
+  width: 60%;
+  height: 60%;
+  fill: hsl(223, 87%, 63%);
+}
